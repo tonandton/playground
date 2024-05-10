@@ -23,8 +23,6 @@
                             <a href="/delivery">{{ __('คำนวณค่าขนส่ง') }}</a>
                         </li>
                     </ul>
-                    <a href="/cal">
-                    </a>
                 </div>
             </div>
         </div>
