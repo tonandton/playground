@@ -22,6 +22,9 @@
                         <li>
                             <a href="/delivery">{{ __('คำนวณค่าขนส่ง') }}</a>
                         </li>
+                        <li>
+                            <a href="/equiments">{{ __('อุปกรณ์') }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -78,6 +78,9 @@
                                     <a href="/delivery" class="dropdown-item">
                                         {{ __('คำนวณค่าขนส่ง') }}
                                     </a>
+                                    <a href="/equiments" class="dropdown-item">
+                                        {{ __('อุปกรณ์') }}
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
