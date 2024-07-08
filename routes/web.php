@@ -12,5 +12,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/cal', [HomeController::class, 'cal'])->name('cal');
+Route::get('/cal2', [HomeController::class, 'cal2'])->name('cal2');
 Route::get('/delivery', [HomeController::class, 'delivery'])->name('delivery');
 Route::resource('equiments', equimentsController::class);

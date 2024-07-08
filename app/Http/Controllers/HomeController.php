@@ -31,6 +31,11 @@ class HomeController extends Controller
         return view('cal');
     }
 
+    public function cal2()
+    {
+        return view('cal2');
+    }
+
     public function delivery()
     {
         return view('delivery');
