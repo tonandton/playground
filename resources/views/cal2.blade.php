@@ -134,7 +134,7 @@
         let depositLge = Number(input1) + Number(input1) // มัดจำ
         let sumLge = depositLge + Number(input1) // ราคาโกดัง + มัดจำ
         let taxesLge = (sqmeter * 100 / 95) - sqmeter // ค่าส่วนต่างของ ภาษีที่ดินและสิ่งปลูกสร้าง
-        let rantal = ((Number(input1) * Number(input7)) / 1000) + 5 // ค่าภาษีอากรแสตมป์ ในการทำสัญญา
+        let rantal = ((Number(input1) * Number(input7)) / 1000) + 5 // ค่าภาษีอากรแสตมป์ ในการทำสัญญา 5 บาท คือค่าคู่ฉบับ
         let resultLge = sumLge + lge5_1 + sqmeter + taxesLge + in_Commonfee + m_Commonfee + rantal
 
         //คำนวนราคาบุคคลธรรมดา
